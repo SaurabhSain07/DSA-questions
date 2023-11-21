@@ -1,5 +1,4 @@
 import 'dart:ffi';
-import 'dart:svg';
 
 void main() {
   arraySum();
@@ -15,7 +14,6 @@ arraySum() {
     57,
     84,
     57,
-    90,
   ];
 
   // For methode
