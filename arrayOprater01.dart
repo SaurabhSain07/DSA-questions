@@ -16,9 +16,13 @@ arraySum() {
     57,
     90,
   ];
-  var sum = 0.0;
-  for (var i = 0; i < Number.length; i++) {
-    sum += Number[i];
-  }
+  // For methode
+  // var sum = 0.0;
+  // for (var i = 0; i < Number.length; i++) {
+  //   sum += Number[i];
+  // }
+  // print(sum);
+  // reduse methode
+  var sum = Number.reduce((a, b) => a + b);
   print(sum);
 }
