@@ -8,7 +8,7 @@ void main() {
 // Implement a function to find the sum of elements in an array.=?
 
 arraySum() {
-  List Numbers = [
+  List Number = [
     23,
     45,
     46,
@@ -19,20 +19,20 @@ arraySum() {
   ];
 
   // For methode
-  // var sum = 0.0;
-  // for (var i = 0; i < Number.length; i++) {
-  //   sum += Number[i];
-  // }
-  // print(sum);
+  var sum = 0.0;
+  for (var i = 0; i < Number.length; i++) {
+    sum += Number[i];
+  }
+  print(sum);
 
   // reduse methode
   // var sum = Number.reduce((a, b) => a + b);
   // print(sum);
 
   // for-each loop methode
-  var sum = 0;
-  Numbers.forEach((Number) {
-    sum += Number;
-  });
-  print(sum);
+  // var sum = 0;
+  // Numbers.forEach((Number) {
+  //   sum += Number;
+  // });
+  // print(sum);
 }
